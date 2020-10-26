@@ -9,5 +9,7 @@ elif 3 in num and num.count(3) > 1:
     print(f'O número 3 apareceu primeiramente na posição {num.index(3) + 1}')
 else:
     print('O número 3 não aparece em nenhuma posição')
-if num % 2 == 0:
-    print(f'Os números pares que apareceram são {}')
+print('Os números pares digitados foram ', end='')
+for c in num:
+    if c % 2 == 0:
+        print(c, end=' ')
