@@ -1,0 +1,9 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": false,
+    "python.linting.pydocstyleEnabled": true,
+    "json.schemas": [
+    
+    ]
+}
