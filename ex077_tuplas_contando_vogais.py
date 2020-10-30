@@ -5,5 +5,3 @@ for c in ordens:
     for letra in c:
         if letra.upper() in 'AEIOU':
             print(letra, end=' ')
-
-#Não consegui fazer só. Preciso urgentemente treinar mais.
