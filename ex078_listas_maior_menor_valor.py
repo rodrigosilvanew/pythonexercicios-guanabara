@@ -1,4 +1,4 @@
-numeros = []
+'''numeros = []
 maior = menor = 0
 for cont in range(0, 5):
     numeros.append(int(input('Digite um número: ')))
@@ -17,4 +17,4 @@ for i, v in enumerate(numeros):
 print(f'\nO menor valor digitado foi {menor} nas posições ', end='')
 for i, v in enumerate(numeros):
     if v == menor:
-        print(f'{i} ', end='')
+        print(f'{i} ', end='')'''
