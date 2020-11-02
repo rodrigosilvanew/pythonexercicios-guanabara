@@ -2,8 +2,9 @@
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pylamaEnabled": false,
-    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstyleEnabled": false,
     "json.schemas": [
     
-    ]
+    ],
+    "python.linting.mypyEnabled": false
 }
