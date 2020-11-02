@@ -1,12 +1,13 @@
 lista = []
 while True:
-    num = lista.append(int(input('Digite um número: ')))
+    num = int(input('Digite um número: '))
+    if num not in lista:
+        lista.append(num)
+    else:
+        print('O número digitado já está na lista, digite outro número!')
     opcao = str(input('Deseja continuar? [S/N]: ')).upper()[0]
     if opcao not in 'SN':
         opcao = str(input('Deseja continuar? [S/N]: ')).upper()[0]
     if opcao == 'N':
         break
-    if num in lista:
-        lista.pop()
-        print('O número já está na lista, digite outro!')
-print(lista)
+print(sorted(lista))
