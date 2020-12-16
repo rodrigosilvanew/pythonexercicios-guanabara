@@ -1,4 +1,4 @@
-from ex109 import moeda
+from ex109_formatando_moedas2 import moeda
 
 p = float(input('Digite o Preço: R$'))
 print(f'A metade de {moeda.moeda(p)} é {moeda.metade(p, True)}')
